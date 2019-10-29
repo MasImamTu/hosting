@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<center>
+<span style="color: black; font-size: large;"><b><script type='text/javascript'>
+
+var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+
+var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+
+var date = new Date();
+
+var day = date.getDate();
+
+var month = date.getMonth();
+
+var thisDay = date.getDay(),
+
+    thisDay = myDays[thisDay];
+
+var yy = date.getYear();
+
+var year = (yy < 1000) ? yy + 1900 : yy;
+
+document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+
+</script></b></span></center><br />
+<center><!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Jam Digital</title>
+<script type="text/javascript">
+    window.setTimeout("waktu()",1000);
+    function waktu() {
+        var tanggal = new Date();
+        setTimeout("waktu()",1000);
+        document.getElementById("jam").innerHTML = tanggal.getHours();
+        document.getElementById("menit").innerHTML = tanggal.getMinutes();
+        document.getElementById("detik").innerHTML = tanggal.getSeconds();
+    }
+</script>
+</head>
+
+<style>
+    #jam-digital{overflow:hidden; width:350px}
+    #hours{float:left; width:100px; height:50px; background-color:#6B9AB8; margin-right:25px}
+    #minute{float:left; width:100px; height:50px; background-color:#A5B1CB}
+    #second{float:right; width:100px; height:50px; background-color:#FF618A; margin-left:25px}
+    #jam-digital p{color:#FFF; font-size:36px; text-align:center; margin-top:4px}
+</style>
+
+<body onLoad="waktu()">
+    <div id="jam-digital">
+        <div id="hours"><p id="jam"></p></div>
+        <div id="minute"><p id="menit"></p></div>
+        <div id="second"><p id="detik"></p></div>
+    </div>
+</body>
+</html></center><br />
+<b><span style="font-size: x-large;">ELRELOAD PAYMENT</span></b>
+<ul>
+<li><a href="https://www.elreload.top/2019/10/pendaftaran-elreload.html" title="Cara Daftar Elreload"><span style="font-size: large;">Cara Daftar Elreload</span></a></li>
+<li><a href="https://www.elreload.top/p/pulsa-reguler.html" title="Format Transaksi Elreload"><span style="font-size: large;">Format Transaksi Elreload</span></a></li>
+<li><a href="https://www.elreload.top/p/harga-all-produk.html" title="Harga Elreload"><span style="font-size: large;">Harga Elreload</span></a></li>
+<li><a href="https://www.elreload.top/p/cara-deposit.html" title="Cara Deposit Elreload"><span style="font-size: large;">Cara Deposit Elreload</span></a></li>
+<li><a href="https://www.elreload.top/p/format-ppob.html" title="Format Transaksi PPOB"><span style="font-size: large;">Format Transaksi PPOB</span></a></li>
+<li><a href="https://www.elreload.top/p/blog-page_76.html" title="Login Web Report"><span style="font-size: large;">Login Web Report</span></a></li>
+<li><a href="https://www.elreload.top/p/panduan-komisi-elreload.html" title="Komisi Elreload"><span style="font-size: large;">Komisi Elreload</span></a></li>
+<li><a href="https://play.google.com/store/apps/details?id=id.co.aviana.elreloadnew" title="Download Aplikasi Elreload"><span style="font-size: large;">Download Aplikasi Elreload</span></a></li>
+</ul>
+<br />
+<center><span style="color: blue; font-size: 30px;"><b>Mohon Tunggu Sampai List Harga Muncul
+</b></span></center>
+<center><iframe frameborder="0" height="1500px" script="" src="http://178.128.51.131:8080/webportal/app/pricelist/?uuid=e72008b41361fdec" type="text/javascript" width="100%"></iframe></center>
+</html>
