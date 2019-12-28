@@ -28,7 +28,7 @@ if(x=="4"){xxx="what-makes-insurance-to-be-paradigm-for.html"}
 if(x=="5"){xxx="sleep-deprivation-why-do-we-need-eight.html"}
 if(x=="6"){xxx="5-tips-to-help-you-choose-flowmeter.html"}
 if(x=="7"){xxx="future-of-organic-farming-in-india.html"}
-if(x=="8"){xxx="where-to-find-best-price-on-primera.html"}a_to_ve[i].href="https://safelink.masimamtu.com/2019/10/"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
+if(x=="8"){xxx="where-to-find-best-price-on-primera.html"}a_to_ve[i].href="https://safe.elreload.top/2019/10/"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
